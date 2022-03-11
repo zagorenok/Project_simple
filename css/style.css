@@ -1,0 +1,167 @@
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eeeff1;
+}
+.container {
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-item {
+  float: left;
+  margin-right: 42px;
+  line-height: 1.5;
+  color: #000;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+.nav-link {
+  display: block;
+  padding-top: 78px;
+}
+.nav-link-active {
+  font-weight: 500;
+  color: #34547a;
+}
+.nav-link:hover {
+  color: darkmagenta;
+}
+.hero {
+  margin-top: -102px;
+  padding-top: 152px;
+  padding-bottom: 142px;
+  background-image: url(../images/white-cube.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero-title {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #000;
+}
+.hero-content {
+  width: 540px; 
+  line-height: 1.5;
+  color: #727272;
+  margin-bottom: 60px;
+}
+.button {
+  display: inline-block;
+  height: 64px;
+  padding: 0 40px;
+  background-color: #34547a;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover {
+  background-color: #fff;
+  color: #34547a;
+}
+.button:focus {
+  background-color: #727272;
+}
+.about-me {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.about-me-title {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.16;
+  text-align: center;
+  color: #000;
+}
+.about-me-content {
+  margin: 0 auto;
+  width: 540px;
+  line-height: 1.6;
+  text-align: center;
+  color: #727272;
+}
+.rectangles {
+  background-color: #34547a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.rectangles-item {
+  float: left;
+  margin-right: 45px;
+}
+.rectangles-item:last-child {
+  margin-right: 0;
+}
+.workflow {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.workflow-title {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.16;
+  text-align: center;
+  color: #000;
+}
+.workflow-content {
+  margin: 0 auto;
+  width: 540px;
+  line-height: 1.6;
+  text-align: center;
+  color: #727272;
+}
+video {
+  margin-top: 57px;
+}
+.play-button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -50px;
+}
+.app-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #34547a;
+  color: #fff;
+}
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.2;
+}
+.footer-text {
+  font-size: 13px;
+  line-height: 1.6;
+}
